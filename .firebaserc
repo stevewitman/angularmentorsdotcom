@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angularmentorsdotcom": {
+      "hosting": {
+        "angularmentorsdotcom": [
+          "angularmentorsdotcom"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angularmentorsdotcom"
+  }
+}

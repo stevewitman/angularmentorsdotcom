@@ -112,6 +112,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "angularmentorsdotcom:build:production",
+            "firebaseProject": "angularmentorsdotcom",
+            "firebaseHostingSite": "angularmentorsdotcom"
+          }
         }
       }
     }
